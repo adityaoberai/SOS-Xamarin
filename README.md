@@ -3,7 +3,9 @@ SOS App that SMSes pre-decided phone number with the coordinates and address of 
 
 ### Description
 
-**FakeACall** is an Android app that allows the user to send an SOS message to a predecided phone number.
+**SOS App** is an Android app that allows the user to send an SOS message to a predecided phone number.
+
+This SOS App was built as a part of the **Use GPS or Maps Technology** session at **MLH Local Hack Day: Share 2021**.
 
 ###  Components
 

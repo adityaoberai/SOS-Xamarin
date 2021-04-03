@@ -11,6 +11,6 @@ This SOS App was built as a part of the **Use GPS or Maps Technology** session a
 
 * The [```main```](https://github.com/adityaoberai/SOS-App-LHDShare2021/tree/main) branch contains the **Xamarin.Forms** project used to build the Android app that gets the coordinates of the phone through the **Xamarin.Essentials Geolocation API** and call the SOS **Azure Function**.  
 
-* The [```twilio_function```](https://github.com/adityaoberai/SOS-App-LHDShare2021/tree/sos_function) branch contains the **Azure Function** that reverse geocodes the coordinates to get the address from the **Google Maps Geocoding API** and uses **Twilio Programmable Message** to send an SOS message to predecided number.  
+* The [```sos_function```](https://github.com/adityaoberai/SOS-App-LHDShare2021/tree/sos_function) branch contains the **Azure Function** that reverse geocodes the coordinates to get the address from the **Google Maps Geocoding API** and uses **Twilio Programmable Message** to send an SOS message to predecided number.  
 
 ---

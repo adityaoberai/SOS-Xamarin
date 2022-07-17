@@ -1,7 +1,7 @@
 # SOS-App-LHDShare2021
 SOS App that SMSes pre-decided phone number with the coordinates and address of the device
 
-![Banner](https://adityaoberai.live/Assets/img/Projects/SOS%20App.png)
+![Banner](https://oberai.dev/Assets/img/Projects/SOS%20App.png)
 
 ### Description
 
@@ -14,6 +14,8 @@ This SOS App was built as a part of the **Use GPS or Maps Technology** session a
 * The [```main```](https://github.com/adityaoberai/SOS-App-LHDShare2021/tree/main) branch contains the **Xamarin.Forms** project used to build the Android app that gets the coordinates of the phone through the **Xamarin.Essentials Geolocation API** and call the SOS **Azure Function**.  
 
 * The [```sos_function```](https://github.com/adityaoberai/SOS-App-LHDShare2021/tree/sos_function) branch contains the **Azure Function** that reverse geocodes the coordinates to get the address from the **Google Maps Geocoding API** and uses **Twilio Programmable Message** to send an SOS message to predecided number.  
+
+![SOS App Pages](https://user-images.githubusercontent.com/31401437/179421060-532712c2-5770-4b4a-b437-0ed0481f8aac.png)
 
 ---
 
